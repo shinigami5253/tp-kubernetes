@@ -8,8 +8,10 @@ metadata:
 spec:
   containers:
   - name: motd
-    image: shinigami5253/motd-api
+    image: shinigami5253/motd-api:v1
     env:
-    -name: APP_PORT
-    value: "80"
+    - name: APP_PORT
+      value: "80"
+    - name: MESSAGE
+      value: "Bonjour, bienvenue sur notre service MOTD!"
     
