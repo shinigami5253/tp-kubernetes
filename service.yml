@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 5555
       targetPort: 80
-  type: ClusterIP
+  type: LoadBalancer
