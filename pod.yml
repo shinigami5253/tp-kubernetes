@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: motd
-    image: shinigami5253/motd-api:v1 
+    image: shinigami5253/motd-api
     env:
     -name: APP_PORT
     value: "80"
