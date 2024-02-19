@@ -1,9 +1,9 @@
 # syntax=docker/dockerfile:1.4
 FROM python:3.12-alpine AS builder
 
-WORKDIR .\TPK8S
+WORKDIR .\
 
-COPY motd-api.py ./TPK8S
+COPY motd-api.py .\
 
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip3 install flask
