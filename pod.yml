@@ -4,6 +4,7 @@ kind: Pod
 metadata:
   name: dreyfus-pod
   labels:
+    podname: dreyfus-pod
     app: motd
 spec:
   containers:

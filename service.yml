@@ -4,9 +4,9 @@ metadata:
   name: dreyfus-service
 spec:
   selector:
-    app.kubernetes.io/name: dreyfus-pod
+    podname: dreyfus-pod
   ports:
     - protocol: TCP
       port: 5555
-      targetPort: 5000
+      targetPort: 80
   type: ClusterIP
