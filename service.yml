@@ -7,6 +7,6 @@ spec:
     app.kubernetes.io/name: dreyfus-pod
   ports:
     - protocol: TCP
-      port: 5555
+      port: 5000
       targetPort: 80
   type: ClusterIP
